@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #121212;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-card {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  .user-card p {
+    font-size: 1em;
+    color: #bbbbbb;
+  }
+  
+
+  .text-white{
+    color: #fff !important;
+  }

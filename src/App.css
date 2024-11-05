@@ -1,0 +1,41 @@
+nav{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #121212;
+  }
+  
+  .nav-link {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+  }
+  
+  .nav-link.active {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff; /* Highlight active link */
+  }
+
+  
+  *{
+    /* border: 1px solid red; */
+  }
